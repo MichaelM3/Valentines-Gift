@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../toronto.jpeg'
+import img from '../assets/toronto.jpeg'
 
 const ValentineCard = () => {
     return (
