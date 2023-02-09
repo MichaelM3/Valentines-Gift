@@ -1,5 +1,7 @@
+import DateCounter from './components/DateCounter'
 import Header from './components/Header'
 import ValentineCard from './components/ValentineCard'
+import Modal from './components/Modal'
 
 const App = () => {
 
@@ -7,7 +9,11 @@ const App = () => {
         <main className="flex flex-col items-center p-6 space-y-6">
             <Header />
             <hr className="border-1 w-full border-purple-400" />
-            <ValentineCard />
+            <div className="flex">
+                <DateCounter />
+                <ValentineCard />
+                <Modal />
+            </div>
         </main>
     )
 }
