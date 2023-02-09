@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const  DateCounter = () => {
+const DateCounter = () => {
     const [timePassed, setTimePassed] = useState({
         years: 0,
         months: 0,
@@ -35,10 +35,10 @@ const  DateCounter = () => {
     }, []);
 
     return (
-        <div>
-            <h2>In love since:</h2>
-            <p>
-                {timePassed.years} years {timePassed.months} months {timePassed.days}{' '}
+        <div className="flex flex-col justify-center border-4 border-purple-400 bg-slate-400 text-pink-200 rounded-xl text-center w-[250px] h-[200px]">
+            <h2 className="font-extrabold text-3xl">In love for</h2>
+            <p className="font-bold text-xl animate-bounce">
+                {timePassed.years} year {timePassed.months} months {timePassed.days}{' '}
                 days
             </p>
         </div>

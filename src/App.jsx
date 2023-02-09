@@ -9,7 +9,7 @@ const App = () => {
         <main className="flex flex-col items-center p-6 space-y-6">
             <Header />
             <hr className="border-1 w-full border-purple-400" />
-            <div className="flex">
+            <div className="flex justify-evenly items-center w-full">
                 <DateCounter />
                 <ValentineCard />
                 <Modal />
