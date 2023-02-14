@@ -5,7 +5,7 @@ const Modal = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="flex justify-center bg-slate-400  border-4 border-purple-400 text-pink-200 text-center text-4xl rounded-xl w-[250px] h-[200px]">
+        <div className="flex justify-center bg-slate-400  border-4 border-purple-400 text-pink-200 text-center text-4xl rounded-xl sm:w-[250px] sm:h-[200px] xs:w-[150px] xs:h-[150px]">
             <button
                 onClick={() => setIsOpen(true)}
                 className="hover:transition-transform duration-200 transform hover:scale-125"

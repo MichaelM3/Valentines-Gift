@@ -4,7 +4,7 @@ import img from '../assets/toronto.jpeg'
 const ValentineCard = () => {
     return (
         <div>
-            <div className="flex justify-center h-[400px] w-[400px]">
+            <div className="flex justify-center sm:h-[400px] sm:w-[400px] xs:h-[200px] xs:w-[200px]">
                 <img
                     className="object-cover rounded-xl border-4 border-purple-400"
                     src={img}

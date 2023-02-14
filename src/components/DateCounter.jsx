@@ -35,7 +35,7 @@ const DateCounter = () => {
     }, []);
 
     return (
-        <div className="flex flex-col justify-center border-4 border-purple-400 bg-slate-400 text-pink-200 rounded-xl text-center w-[250px] h-[200px]">
+        <div className="flex flex-col justify-center border-4 border-purple-400 bg-slate-400 text-pink-200 rounded-xl text-center xs:w-[150px] xs:h-[150px] sm:w-[250px] sm:h-[200px]">
             <h2 className="font-extrabold text-3xl">In love for</h2>
             <p className="font-bold text-xl animate-bounce">
                 {timePassed.years} year {timePassed.months} months {timePassed.days}{' '}
