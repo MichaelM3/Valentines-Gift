@@ -10,7 +10,7 @@ const Modal = () => {
                 onClick={() => setIsOpen(true)}
                 className="hover:transition-transform duration-200 transform hover:scale-125"
             >
-                Open Modal
+               Click Me! 
             </button>
             {isOpen && (
                 <div className="text-center fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-75">
